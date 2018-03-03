@@ -193,13 +193,17 @@
 				TargetAttributes = {
 					86A33B511D3609DF004A3C67 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KAF555H8BH;
+						LastSwiftMigration = 0830;
 					};
 					86A33B651D3609E0004A3C67 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = 86A33B511D3609DF004A3C67;
 					};
 					86A33B701D3609E0004A3C67 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = 86A33B511D3609DF004A3C67;
 					};
 				};
@@ -401,10 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KAF555H8BH;
 				INFOPLIST_FILE = TimesTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthlmb.TimesTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -412,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KAF555H8BH;
 				INFOPLIST_FILE = TimesTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthlmb.TimesTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthlmb.TimesTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimesTable.app/TimesTable";
 			};
 			name = Debug;
@@ -439,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthlmb.TimesTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimesTable.app/TimesTable";
 			};
 			name = Release;
@@ -450,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthlmb.TimesTableUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TimesTable;
 			};
 			name = Debug;
@@ -461,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthlmb.TimesTableUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TimesTable;
 			};
 			name = Release;
@@ -484,6 +498,7 @@
 				86A33B7C1D3609E0004A3C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86A33B7D1D3609E0004A3C67 /* Build configuration list for PBXNativeTarget "TimesTableTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +507,7 @@
 				86A33B7F1D3609E0004A3C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86A33B801D3609E0004A3C67 /* Build configuration list for PBXNativeTarget "TimesTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +516,7 @@
 				86A33B821D3609E0004A3C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
